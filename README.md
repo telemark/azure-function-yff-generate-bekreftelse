@@ -7,10 +7,11 @@ Generates document from data.
 
 ## Usage
 
-POST json and receive a base64 encoded version of a docx-file.
+POST json and receive a base64 encoded version of a docx-file in the document property.
 
 ```JavaScript
 {
+  ...json,
   document: '<base64>'
 }
 ```
