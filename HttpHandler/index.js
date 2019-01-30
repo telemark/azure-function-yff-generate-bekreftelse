@@ -3,12 +3,12 @@ const generateDocumentData = require('../lib/generate-document-data')
 
 module.exports = async function (context, request) {
   if (request.body) {
-    const data = await prepareDocument(request.body)
+    let body = request.body
+    const data = await prepareDocument(body)
     const document = await generateDocumentData(context, data)
+    body.document = document
     context.response = {
-      body: {
-        document: document
-      }
+      body: body
     }
   } else {
     context.response = {
