@@ -5,7 +5,10 @@
           "authLevel": "function",
           "type": "httpTrigger",
           "direction": "in",
-          "name": "request"
+          "name": "request",
+          "methods": [
+              "post"
+          ]
       },
       {
           "type": "http",
