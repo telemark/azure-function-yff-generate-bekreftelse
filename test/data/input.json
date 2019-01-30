@@ -1,0 +1,81 @@
+{
+  "timeStamp": 1517482176853,
+  "documentDate": "2018-02-01T10:49:36.853Z",
+  "skjemaUtfyllingStart": "1517482091274",
+  "skjemaUtfyllingStop": 1517482176853,
+  "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+  "userId": "demouser",
+  "userName": "Demo User",
+  "userMail": "demo@t-fk.no",
+  "studentName": "Finn Beck",
+  "studentFirstName": "Finn",
+  "studentMiddleName": "",
+  "studentLastName": "Beck",
+  "studentId": "01015100172",
+  "studentUserName": "0151beck",
+  "studentMail": "finn.beck@gmail.com",
+  "studentPhone": "+4741111111",
+  "studentMainGroupName": "BAMVS:3ST",
+  "schoolId": "BAMVS",
+  "schoolName": "Bamble vgs. avd. Grasmyr",
+  "schoolPhone": "35 91 94 00",
+  "schoolOrganizationNumber": "974568098",
+  "period": "",
+  "documentType": "yff",
+  "documentCategory": "yff-bekreftelse-bedrift",
+  "bekreftelseId": "78c8199b-2756-4a96-913c-a9e044e38c0d",
+  "classLevel": "VG2",
+  "utdanningsprogram": "Helse- og oppvekstfag",
+  "programomrade": "Velg programområde",
+  "bedriftsNavn": "TELEMARK FYLKESKOMMUNE SENTRALADMINISTRASJON",
+  "utplasseringsPeriode": "01. februar 2018 - 01. februar 2018",
+  "bedriftsData": {
+    "organisasjonsNummer": "974644649",
+    "navn": "TELEMARK FYLKESKOMMUNE SENTRALADMINISTRASJON",
+    "adresse": "Fylkesbakken 10",
+    "postnummer": "3715",
+    "poststed": "SKIEN",
+    "avdeling": ""
+  },
+  "kontaktpersonData": [
+    {
+      "navn": "Kalle Klovn",
+      "telefon": "98765432",
+      "epost": "kalle@klovn.com",
+      "avdeling": "Redningsservice"
+    },
+    {
+      "navn": "Kaare Klovn",
+      "telefon": "23456789",
+      "epost": "kaare@klovn.com",
+      "avdeling": "Serviceredning"
+    },
+    {
+      "navn": "Katja Klovn",
+      "telefon": "98762345",
+      "epost": "",
+      "avdeling": "Redning & Service"
+    }
+  ],
+  "parorendeData": [
+    {
+      "navn": "Kari Klovn",
+      "telefon": "56473829"
+    }
+  ],
+  "utplasseringData": {
+    "startDato": "01. februar 2018",
+    "sluttDato": "01. februar 2018",
+    "daysPerWeek": "5",
+    "startTid": "08:00",
+    "sluttTid": "16:00",
+    "oppmotested": "Manesjen"
+  },
+  "documentStatus": [
+    {
+      "timeStamp": 1517482176853,
+      "status": "I kø"
+    }
+  ],
+  "isQueued": true
+}
