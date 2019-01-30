@@ -6,7 +6,7 @@ function base64ToObj (base64) {
 }
 
 module.exports = async function (context, request) {
-  if (request.body) {
+  if (request.body && request.body.ContentData) {
     let body = base64ToObj(request.body.ContentData)
     const data = await prepareDocument(body)
     const document = await generateDocumentData(context, data)
