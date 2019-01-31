@@ -1,13 +1,9 @@
 const prepareDocument = require('../lib/prepare-document')
 const generateDocumentData = require('../lib/generate-document-data')
 
-function base64ToObj (base64) {
-  return JSON.parse(Buffer.from(base64, 'base64').toString('utf-8'))
-}
-
 module.exports = async function (context, request) {
-  if (request.body && request.body.ContentData) {
-    let body = base64ToObj(request.body.ContentData)
+  if (request.body) {
+    let body = request.body
     const data = await prepareDocument(body)
     const document = await generateDocumentData(context, data)
     body.document = document

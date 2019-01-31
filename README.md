@@ -31,7 +31,7 @@ $ func start
 POST testdata
 
 ```
-$ curl http://localhost:7071/api/HttpHandler -d "{'ContentData': '$(base64 test/data/input.json)'}" -H 'Content-Type: application/json'
+$ curl http://localhost:7071/api/HttpHandler -d @test/data/input.json --header "Content-Type: application/json"
 ```
 
 # License
