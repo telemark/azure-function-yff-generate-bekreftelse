@@ -6,6 +6,7 @@ module.exports = async function (context, request) {
     let body = request.body
     const data = await prepareDocument(body)
     const document = await generateDocumentData(context, data)
+    body.recipients = data.recipients
     body.document = document
     context.response = {
       body: body
