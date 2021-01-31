@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "birthdate-from-id": "2.0.2",
-    "document-templates": "1.1.0",
+    "document-templates": "1.4.14",
     "elev-varsel-generate-document-title": "2.3.3",
     "generate-docx": "2.1.1",
     "get-skole-aar": "2.0.0",
